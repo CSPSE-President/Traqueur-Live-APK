@@ -1,0 +1,13 @@
+{
+	"appId": "fr.bergeres.traqueurlive",
+	"appName": "Traqueur Live",
+	"webDir": "www",
+	"android": {
+		"useLegacyBridge": true
+	},
+	"plugins": {
+		"CapacitorHttp": {
+			"enabled": true
+		}
+	}
+}

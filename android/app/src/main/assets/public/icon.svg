@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#171b13"/>
+  <circle cx="256" cy="256" r="230" fill="#20261a"/>
+
+  <!-- anneaux radar / topo -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#3a4530" stroke-width="3"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#3a4530" stroke-width="3"/>
+  <circle cx="256" cy="256" r="110" fill="none" stroke="#7c8f52" stroke-width="3" opacity="0.55"/>
+
+  <!-- reticule -->
+  <line x1="256" y1="40" x2="256" y2="96" stroke="#7c8f52" stroke-width="4"/>
+  <line x1="256" y1="416" x2="256" y2="472" stroke="#7c8f52" stroke-width="4"/>
+  <line x1="40" y1="256" x2="96" y2="256" stroke="#7c8f52" stroke-width="4"/>
+  <line x1="416" y1="256" x2="472" y2="256" stroke="#7c8f52" stroke-width="4"/>
+
+  <!-- halo pulse -->
+  <circle cx="256" cy="256" r="78" fill="#b5622a" opacity="0.25"/>
+  <circle cx="256" cy="256" r="56" fill="#b5622a" opacity="0.35"/>
+
+  <!-- point de position live -->
+  <circle cx="256" cy="256" r="38" fill="#b5622a" stroke="#ece3d1" stroke-width="8"/>
+</svg>
